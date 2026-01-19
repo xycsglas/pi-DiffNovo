@@ -80,6 +80,9 @@ To reproduce peptide accuracy results in our paper, please run PeptideAccuracy.p
 
 The results will be listed in column GND=Tran, GND=DIFF, and GND=Final, indicating cases where the Transformer prediction, the diffusion-refined prediction, and the final pi-DiffNovo output, respectively, are identical to the ground-truth sequence.
 
+<img width="915" height="289" alt="image" src="https://github.com/user-attachments/assets/a0384818-8cba-49e6-bb3d-22e715ca4848" />
+
+
 
 
 
