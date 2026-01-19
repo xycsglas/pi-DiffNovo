@@ -68,9 +68,17 @@ conda activate DiffNovo
 
 Run the following command:
 
+```
+instanovo diffusion predict --evaluation --data-path ./peaks.db.mgf --output-path Mouse_predictions.csv instanovo_predictions_path=./Mouse_tokenized.csv
+```
 
+The predicted results are saved in Mouse_predictions.csv.
 
+# Evaluate pi-DiffNovo
 
+To reproduce peptide accuracy results in our paper, please run PeptideAccuracy.py
+
+The results will be listed in column GND=Tran, GND=DIFF, and GND=Final, indicating cases where the Transformer prediction, the diffusion-refined prediction, and the final pi-DiffNovo output, respectively, are identical to the ground-truth sequence.
 
 
 
