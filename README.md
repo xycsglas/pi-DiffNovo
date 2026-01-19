@@ -36,6 +36,20 @@ Then install dependencies provided by below requirement file:
 ```
 pip install -r ./pi_requirements.txt
 ```
+# pi-PrimeNovo prediction and Scores
+
+First activate environment：
+```
+conda activate PrimeNovo
+```
+
+Then run the following command:
+```
+conda activate PrimeNovo
+```
+
+
+
 
 
 
