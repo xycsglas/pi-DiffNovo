@@ -13,7 +13,7 @@ This will create an anaconda environment. Activate this environment by running:
 ```
 conda activate DiffNovo
 ```
-then install dependencies provided by below requirement file:
+Then install dependencies provided by below requirement file:
 
 ```
 pip install -r ./IN_requirements.txt
