@@ -43,10 +43,33 @@ First activate environment：
 conda activate PrimeNovo
 ```
 
-Then run the following command:
+We provided a sample data containing 20000+ spectrums in SampleData_Muslus.zip.
+unzip this file to attain the mgf file peaks.db.mgf. This is the Mouse dataset in MSV000090982.
+
+Run the following command to obtain pi-PrimeNovo prediction and beam scores:
 ```
-conda activate PrimeNovo
+python -m PrimeNovo.PrimeNovo --mode=denovo --peak_path=./peaks.db.mgf --model=./model_massive.ckpt
 ```
+
+This will produce a denovo.tsv file which contains the prediction and beam scores.
+Run 1_ConvertPiResutls.py to attain converted results.
+Run 2_changeModificationFormat.py to exchange pi-PrimNovo format modification into InstaNovo format.
+Run 3_tokenizePipreds.py to attain toknized pi-PrimeNovo results for further evaluation in InstaNovo.
+
+Eventually we obtain Mouse_tokenized.csv.
+
+# InstaNovo+ prediction 
+
+Activate environment:
+
+```
+conda activate DiffNovo
+```
+
+Run the following command:
+
+
+
 
 
 
