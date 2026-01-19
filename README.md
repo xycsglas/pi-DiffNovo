@@ -52,8 +52,11 @@ python -m PrimeNovo.PrimeNovo --mode=denovo --peak_path=./peaks.db.mgf --model=.
 ```
 
 This will produce a denovo.tsv file which contains the prediction and beam scores.
+
 Run 1_ConvertPiResutls.py to attain converted results.
+
 Run 2_changeModificationFormat.py to exchange pi-PrimNovo format modification into InstaNovo format.
+
 Run 3_tokenizePipreds.py to attain toknized pi-PrimeNovo results for further evaluation in InstaNovo.
 
 Eventually we obtain Mouse_tokenized.csv.
