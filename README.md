@@ -6,12 +6,12 @@ First is to set up environment for pi-PrimeNovo and InstaNovo.
 Create a new conda environment for InstaNovo:
 
 ```
-conda create --name DiffNovo python=3.10.0
+conda create --name instanovo python=3.10.0
 ```
 This will create an anaconda environment. Activate this environment by running:
 
 ```
-conda activate DiffNovo
+conda activate instanovo
 ```
 Then install dependencies provided by below requirement file:
 
@@ -63,7 +63,7 @@ Eventually we obtain Mouse_tokenized.csv.
 Activate environment:
 
 ```
-conda activate DiffNovo
+conda activate instanovo
 ```
 
 Run the following command:
